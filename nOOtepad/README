@@ -1,0 +1,43 @@
+Hey guys here is a little tutorial on how to use Egit.
+
+
+First things first your going to need to setup your environment.
+Please go into your home folder and delete your workspaces.
+	(dont worry eclipse will create a new one for you).
+	
+Now follow the steps to setup your working directory.
+
+1. File -> Import -> Git -> Projects from Git
+2. Click ok if you get a popup then click Clone...
+3. Fill out the form with the following data
+	URI: git@github.com:mikedmor/nOOtepad.git
+	Host: github.com
+	Repository path: mikedmor/nOOtepad.git
+	Protocol: <blank>
+	Port: <blank>
+	User: git
+	Password: <blank>
+4. Click next then in the next box put 'thecakeisalie' for the password
+5. Click next, then Finish, Then Next
+6. Make sure 'Import Existing Projects is selected then click next
+7. Last Click Finish
+
+Once you have that up you will have the full source working.
+If you have an error stating 'Java Build Path Problems' and when you open
+that you see 'Project 'nOOtepad' is missing required source folder.'gen', just
+right click on that error and click "Quick Fix", when the box opens up click
+finish, then check 'Android 3.2' Then clcik ok. That will fix the errors
+
+There you go you have the source!
+Here are a few extra tips you may want to know about using Egit.
+
+To manage your data back to the git repository right click the file and go to Team
+
+Team -> Add - Adds files to the current prject to be uploaded to Git
+Team -> Commit - Commits your changes to the local git on your PC
+	(be sure to commit as often as possible!)
+Team -> Branch - Creates a switch between two different file version
+Team -> Push - Pushes your changes in your local git (pc) to the remote git (online)
+	(you should only push when you have gotten alot of work done)
+	
+This should be all that you need. Good luck! Looking forward to seeing this project working!

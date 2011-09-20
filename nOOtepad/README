@@ -37,7 +37,13 @@ Team -> Add - Adds files to the current prject to be uploaded to Git
 Team -> Commit - Commits your changes to the local git on your PC
 	(be sure to commit as often as possible!)
 Team -> Branch - Creates a switch between two different file version
-Team -> Push - Pushes your changes in your local git (pc) to the remote git (online)
+Team -> Remote -> Push - Pushes your changes in your local git (pc) to the remote git (online)
 	(you should only push when you have gotten alot of work done)
+	
+Quick guide on Push:
+1. The setting should be the same as step 3 above
+2. On the next page in the first drop down select 'master [branch]'
+3. Click the 'Add Spec' Button, Then Finish. Your local git commit's will then
+	be pushed to Github
 	
 This should be all that you need. Good luck! Looking forward to seeing this project working!

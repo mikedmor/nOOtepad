@@ -3,28 +3,26 @@
     <string name="hello">Hello World, nOOtepadActivity!</string>
     <string name="app_name">nOOtepad</string>
     
-    <string-array name="tut_titles">
-    <item>Design &amp; Build a 1980s iOS Phone App: Design Comp Slicing</item>
-    <item>Best of Tuts+ in February 2011</item>
-    <item>Create a Brick Breaker Game with the Corona SDK: Game Controls</item>
-    <item>Exporting Graphics for Mobile Apps: PNG or JPEG?</item>
-    <item>Android Tablet Design</item>
-    <item>Build a Titanium Mobile Pizza Ordering App: Order Form Setup</item>
-    <item>Create a Brick Breaker Game with the Corona SDK: Application Setup</item>
-    <item>Android Tablet Virtual Device Configurations</item>
-    <item>Build a Titanium Mobile Pizza Ordering App: Topping Selection</item>
-    <item>Design &amp; Build a 1980s iOS Phone App: Interface Builder Setup</item>
+    <string-array name="list_titles">
+    <item>This is a sample list</item>
+    <item>In the future there are plans to make this dynamic</item>
+    <item>For now the list is loaded from an array</item>
+    <item>You can find the array in the strings.xml file</item>
+    <item>Each of these list items contain a link</item>
+    <item>By clicking on the item you should see a window to the right</item>
+    <item>At the moment this window will load a website based on your pick</item>
+    <item>In the future this will load local nOOtepad documents</item>
+    <item>It will also display the apphome and project properties</item>
 </string-array>
-<string-array name="tut_links">
-    <item>http://mobile.tutsplus.com/tutorials/mobile-design-tutorials/80s-phone-app-slicing/</item>
-    <item>http://mobile.tutsplus.com/articles/news/best-of-tuts-in-february-2011/</item>
-    <item>http://mobile.tutsplus.com/tutorials/corona/create-a-brick-breaker-game-with-the-corona-sdk-game-controls/</item>
-    <item>http://mobile.tutsplus.com/tutorials/mobile-design-tutorials/mobile-design_png-or-jpg/</item>
-    <item>http://mobile.tutsplus.com/tutorials/android/android-tablet-design/</item>
-    <item>http://mobile.tutsplus.com/tutorials/appcelerator/build-a-titanium-mobile-pizza-ordering-app-order-form-setup/</item>
-    <item>http://mobile.tutsplus.com/tutorials/corona/corona-sdk_brick-breaker/</item>
-    <item>http://mobile.tutsplus.com/tutorials/android/android-sdk_tablet_virtual-device-configuration/</item>
-    <item>http://mobile.tutsplus.com/tutorials/appcelerator/pizza-ordering-app-part-2/</item>
-    <item>http://mobile.tutsplus.com/tutorials/iphone/1980s-phone-app_interface-builder-setup/</item>
+<string-array name="list_links">
+    <item>http://www.mikedmor.com</item>
+    <item>http://www.google.com</item>
+    <item>http://www.gmail.com</item>
+    <item>http://www.engadget.com</item>
+    <item>http://www.maximumpc.com</item>
+    <item>http://www.xda-developers.com</item>
+    <item>http://www.youtube.com</item>
+    <item>http://www.google.com/plus</item>
+    <item>http://www.facebook.com</item>
 </string-array>
 </resources>

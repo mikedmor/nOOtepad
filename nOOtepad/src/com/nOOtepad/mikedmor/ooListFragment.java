@@ -11,7 +11,7 @@ import android.widget.ListView;
 public class ooListFragment extends ListFragment{
 	@Override
 	public void onListItemClick(ListView l, View v, int position, long id) {
-	    String[] links = getResources().getStringArray(R.array.tut_links);
+	    String[] links = getResources().getStringArray(R.array.list_links);
 	 
 	    String content = links[position];
 	    Intent showContent = new Intent(getActivity().getApplicationContext(),
@@ -24,7 +24,7 @@ public class ooListFragment extends ListFragment{
 	public void onCreate(Bundle savedInstanceState) {
 	    super.onCreate(savedInstanceState);
 	    setListAdapter(ArrayAdapter.createFromResource(getActivity()
-	            .getApplicationContext(), R.array.tut_titles,
+	            .getApplicationContext(), R.array.list_titles,
 	            R.layout.list_item));
 	}
 }

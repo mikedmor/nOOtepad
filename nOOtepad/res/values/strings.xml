@@ -2,7 +2,7 @@
 <resources>
     <string name="hello">This is the nOOtepadActivity</string>
     <string name="app_name">nOOtepad</string>
-    
+    <string name="menu_save_txt">Save</string>
     <string-array name="list_titles">
     <item>This is a sample list</item>
     <item>In the future there are plans to make this dynamic</item>

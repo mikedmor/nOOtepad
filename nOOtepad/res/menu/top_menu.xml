@@ -4,4 +4,14 @@
           android:icon="@drawable/menu_save"
           android:title="@string/menu_save_txt"
           android:showAsAction="ifRoom|withText"/>
+    <item android:id="@+id/file"
+          android:icon="@drawable/options">
+        <!-- "file" submenu -->
+            <item android:id="@+id/create_new"
+                  android:title="@string/create_new" />
+            <item android:id="@+id/open"
+                  android:title="@string/open" />
+            <item android:id="@+id/exit"
+                  android:title="@string/exit" />
+    </item>
 </menu>

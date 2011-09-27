@@ -6,7 +6,8 @@
     <string name="create_new">Create New</string>
     <string name="open">Open</string>
     <string name="exit">Exit</string>
-    
+    <string name="settings">Settings</string>
+    <string name="set_preferences">Set Preferences</string>
     
     <string-array name="list_titles">
     <item>This is a sample list</item>
